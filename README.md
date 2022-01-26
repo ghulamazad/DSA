@@ -21,8 +21,8 @@
 
 #### Algorithms
 - [Arrays](./02.Algorithms/01.Arrays)
-    - [Simple Array Sum](./02.Algorithms/01.Arrays/01.Simple%20Array%20Sum)
-    - [Reverse an array](./02.Algorithms/01.Arrays/02.Reverse%20an%20Array)
+    - [Simple Array Sum](./02.Algorithms/01.Arrays/Simple%20Array%20Sum)
+    - [Reverse an array](./02.Algorithms/01.Arrays/Reverse%20an%20Array)
 - Linked List
     - Singly Linked List
     - Circular Linked List
