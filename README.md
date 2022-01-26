@@ -18,7 +18,19 @@
 - Graph
 
 #### Algorithms
-- **Dynamic Programming** - build up a solution using previously found sub-solutions
+- Arrays
+    - [Arrays - DS](./01.Algorithms/01.Arrays/01.Reverse an Array)
+- Linked List
+- Doubly Linked List
+- Queue
+- Stack
+- Hash Table
+- Heap
+- Tree
+    - Binary Search Tree
+    - AVL Tree
+- Graph
+- **Dynamic Programming**
     - Fibonacci Number
     - Longest Common Subsequence
     - Longest Common Substring
