@@ -1,5 +1,5 @@
 <div align="center">
-      <h1>Data Structures and Algorithms</h1>
+      <a href="https://ghulamazad.github.io/Data-Structures-and-Algorithms"><h1>Data Structures and Algorithms</h1></a>
       <p>This repository contains all the Data Structures and Algorithms concepts and their implementation in several ways, including programming questions and Interview questions. It includes questions from popular coding platforms including LeetCode, HackerRank, Codeforces, Codechef, and many more.</p>
 </div>
 
