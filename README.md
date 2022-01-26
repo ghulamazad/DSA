@@ -20,9 +20,9 @@
 - Graph
 
 #### Algorithms
-- Arrays
-    - [Reverse an array](./02.Algorithms/01.Arrays/01.Reverse%20an%20Array)
-    - [Simple Array Sum](./02.Algorithms/01.Arrays/02.Simple%20Array%20Sum)
+- [Arrays](./02.Algorithms/01.Arrays)
+    - [Simple Array Sum](./02.Algorithms/01.Arrays/01.Simple%20Array%20Sum)
+    - [Reverse an array](./02.Algorithms/01.Arrays/02.Reverse%20an%20Array)
 - Linked List
     - Singly Linked List
     - Circular Linked List
