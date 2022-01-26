@@ -7,7 +7,9 @@
 #### Data Structures
 
 - Linked List
-- Doubly Linked List
+    - Singly Linked List
+    - Circular Linked List
+    - Doubly Linked List
 - Queue
 - Stack
 - Hash Table
@@ -19,9 +21,12 @@
 
 #### Algorithms
 - Arrays
-    - [Arrays - DS](./01.Algorithms/01.Arrays/01.Reverse an Array)
+    - [Reverse an array](./02.Algorithms/01.Arrays/01.Reverse%20an%20Array)
+    - [Simple Array Sum](./02.Algorithms/01.Arrays/02.Simple%20Array%20Sum)
 - Linked List
-- Doubly Linked List
+    - Singly Linked List
+    - Circular Linked List
+    - Doubly Linked List
 - Queue
 - Stack
 - Hash Table
