@@ -66,9 +66,10 @@ body {
       color: #fff !important;
     }
 
-    ul li a{
+    ul li a {
       text-decoration: none;
     }
+
 
     .github-fork-ribbon {
       width: 12.1em;
