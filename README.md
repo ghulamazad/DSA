@@ -20,7 +20,7 @@
     - AVL Tree
 - Graph
 
-#### Algorithms
+#### [Algorithms](./02.Algorithms)
 - [Arrays](./02.Algorithms/01.Arrays)
     - [Simple Array Sum](./02.Algorithms/01.Arrays/Simple%20Array%20Sum)
     - [Reverse an array](./02.Algorithms/01.Arrays/Reverse%20an%20Array)
@@ -37,8 +37,8 @@
     - AVL Tree
 - Graph
 
-- **Searching**
-    - Linear Search
+- [**Searching**](./02.Algorithms/09.Searching)
+    - [Linear Search](./02.Algorithms/09.Searching/01.Linear%20Search)
     - Binary Search
     - Jump Search
     - Interpolation Search
