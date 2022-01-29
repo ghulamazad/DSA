@@ -36,6 +36,15 @@
     - Binary Search Tree
     - AVL Tree
 - Graph
+
+- **Searching**
+    - Linear Search
+    - Binary Search
+    - Jump Search
+    - Interpolation Search
+    - Exponential Search
+    - Ternary Search
+
 - **Dynamic Programming**
     - Fibonacci Number
     - Longest Common Subsequence
