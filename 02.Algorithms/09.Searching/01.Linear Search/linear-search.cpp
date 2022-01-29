@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int search(int arr[], int size, int target)
+int linearSearch(int arr[], int size, int target)
 {
       for (int i = 0; i < size; i++)
       {
@@ -17,7 +17,7 @@ int search(int arr[], int size, int target)
 int main()
 {
       int arr[] = {12, 52, 69, 78, 23, 5, 6, 8, 4, 64};
-      int r = search(arr, 10, 61);
+      int r = linearSearch(arr, 10, 5);
       if (r == -1)
       {
             cout << "Element is not present in array";
