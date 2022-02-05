@@ -21,12 +21,12 @@
 - Graph
 
 #### [Algorithms](./02.Algorithms)
-- [Arrays](./02.Algorithms/01.Arrays)
-    - [Simple Array Sum](./02.Algorithms/01.Arrays/Simple%20Array%20Sum)
-    - [Reverse an array](./02.Algorithms/01.Arrays/Reverse%20an%20Array)
+- [Arrays](./02.Algorithms/02.Arrays)
+    - [Simple Array Sum](./02.Algorithms/02.Arrays/Simple%20Array%20Sum)
+    - [Reverse an array](./02.Algorithms/02.Arrays/Reverse%20an%20Array)
 - **Sorting**
-- [**Searching**](./02.Algorithms/09.Searching)
-    - [Linear Search](./02.Algorithms/09.Searching/01.Linear%20Search)
+- [**Searching**](./02.Algorithms/03.Searching)
+    - [Linear Search](./02.Algorithms/03.Searching/01.Linear%20Search)
     - Binary Search
     - Jump Search
     - Interpolation Search
