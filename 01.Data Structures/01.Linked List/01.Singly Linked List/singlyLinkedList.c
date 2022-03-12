@@ -14,9 +14,15 @@ struct Node *head = NULL, *lastNode = NULL;
 int takeIntInput();
 void display(struct Node *);
 int count(struct Node *);
-void insert(struct Node *, int, int);
 void insertAtBeg(int data);
 void insertAtLast(int);
+void insert(struct Node *, int, int);
+int search(int);
+void deleteFirst();
+void deleteLast();
+void deleteAt();
+void update(int, int);
+void reverse();
 // END FUNCTION DECLARATION
 
 void main()
@@ -59,6 +65,11 @@ void main()
             posi = takeIntInput("Enter position to insert the node: ");
             val = takeIntInput("Enter value: ");
             insert(head, posi, val);
+            break;
+        case 5:
+            posi = takeIntInput("Enter position to insert the node: ");
+            val = takeIntInput("Enter value: ");
+            insert(head, posi - 1, val);
             break;
         case 12:
             val = count(head);
@@ -173,3 +184,10 @@ void insertAtLast(int data)
         lastNode = t;
     }
 }
+
+int search(int target) {}
+void deleteFirst() {}
+void deleteLast() {}
+void deleteAt() {}
+void update(int oldValue, int newValue) {}
+void reverse() {}
