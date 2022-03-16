@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <conio.h>
 
+#define false 0
+#define true 1
+
 struct Node
 {
     int data;
@@ -20,7 +23,7 @@ void insert(struct Node *, int, int);
 int search(int);
 void deleteFirst();
 void deleteLast();
-void deleteAt();
+void deleteAt(struct Node *, int);
 void update(int, int);
 void reverse();
 // END FUNCTION DECLARATION
@@ -142,10 +145,8 @@ void insert(struct Node *node, int index, int data)
         return;
     }
 
-    printf("%d %d", index, totalNode);
     if (index == totalNode)
     {
-        printf("last");
         insertAtLast(data);
         return;
     }
@@ -185,9 +186,117 @@ void insertAtLast(int data)
     }
 }
 
-int search(int target) {}
-void deleteFirst() {}
-void deleteLast() {}
-void deleteAt() {}
-void update(int oldValue, int newValue) {}
-void reverse() {}
+int search(int target)
+{
+    struct Node *node = head;
+    while (node != NULL)
+    {
+        if (target == node->data)
+            return true;
+        node = node->next;
+    }
+    return false;
+}
+
+void deleteFirst()
+{
+    struct Node *tmp = head;
+    if (tmp == NULL)
+    {
+        printf("\n\nList is empty.");
+        return;
+    }
+    head = head->next;
+    free(tmp);
+}
+void deleteLast()
+{
+    int i = 0;
+    struct Node *tmp = head;
+    if (lastNode == NULL)
+    {
+        printf("\n\nList is empty.");
+        return;
+    }
+    for (i = 0; i < count(head) - 1; i++)
+    {
+        tmp = tmp->next;
+    }
+    lastNode = tmp;
+    tmp = tmp->next;
+    lastNode->next = NULL;
+    free(tmp);
+}
+
+void deleteAt(struct Node *node, int index)
+{
+    struct Node *t;
+    int i;
+
+    int totalNode = count(node);
+
+    if (index < 0 || index > totalNode)
+    {
+        printf("\n\nThe given position must not exceed the length of the list and must not be less than zero.\n\n");
+        return;
+    }
+
+    if (index == totalNode)
+    {
+        deleteLast();
+        return;
+    }
+    if (index == 0)
+    {
+        deleteFirst();
+        return;
+    }
+    else
+    {
+        for (i = 0; i < index - 1; i++)
+            node = node->next;
+
+        t = node->next;
+        t->next = node->next->next;
+        free(t);
+    }
+}
+
+void update(int oldValue, int newValue)
+{
+    int n, flag = 0;
+    struct Node *tmp = head;
+
+    while (tmp != NULL)
+    {
+        if (tmp->data == oldValue)
+        {
+            flag = true;
+            break;
+        }
+        tmp = tmp->next;
+    }
+    if (flag == true)
+    {
+        tmp->data = newValue;
+        printf("\nValue updated.");
+    }
+    else
+    {
+        printf("\nInvalid Input\n");
+    }
+}
+
+void reverse()
+{
+    struct Node *tmp, *ptr1 = NULL, *ptr2 = NULL;
+    tmp = head;
+    while (tmp != NULL)
+    {
+        ptr1 = tmp->next;
+        tmp->next = ptr2;
+        ptr2 = tmp;
+        tmp = ptr1;
+    }
+    head = ptr2;
+}
