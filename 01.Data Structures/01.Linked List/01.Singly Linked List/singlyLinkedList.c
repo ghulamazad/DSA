@@ -24,7 +24,7 @@ int search(int);
 void deleteFirst();
 void deleteLast();
 void deleteAt(struct Node *, int);
-void update(int, int);
+void update(int);
 void reverse();
 // END FUNCTION DECLARATION
 
@@ -73,6 +73,27 @@ void main()
             posi = takeIntInput("Enter position to insert the node: ");
             val = takeIntInput("Enter value: ");
             insert(head, posi - 1, val);
+            break;
+        case 6:
+            val = takeIntInput("Enter value for searching: ");
+            search(val);
+            break;
+        case 7:
+            deleteFirst();
+            break;
+        case 8:
+            deleteLast();
+            break;
+        case 9:
+            posi = takeIntInput("Enter position to delete the node: ");
+            deleteAt(head, posi);
+            break;
+        case 10:
+            val = takeIntInput("Enter value: ");
+            update(val);
+            break;
+        case 11:
+            reverse();
             break;
         case 12:
             val = count(head);
@@ -262,7 +283,7 @@ void deleteAt(struct Node *node, int index)
     }
 }
 
-void update(int oldValue, int newValue)
+void update(int oldValue)
 {
     int n, flag = 0;
     struct Node *tmp = head;
@@ -278,7 +299,9 @@ void update(int oldValue, int newValue)
     }
     if (flag == true)
     {
-        tmp->data = newValue;
+        printf("Enter new value: ");
+        scanf("%d", &n);
+        tmp->data = n;
         printf("\nValue updated.");
     }
     else
