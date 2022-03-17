@@ -76,7 +76,14 @@ void main()
             break;
         case 6:
             val = takeIntInput("Enter value for searching: ");
-            search(val);
+            if (search(val))
+            {
+                printf("%d is found.", val);
+            }
+            else
+            {
+                printf("%d does not exist", val);
+            }
             break;
         case 7:
             deleteFirst();
