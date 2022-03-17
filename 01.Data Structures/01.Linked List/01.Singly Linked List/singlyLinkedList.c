@@ -274,18 +274,18 @@ void deleteAt(struct Node *node, int index)
         deleteLast();
         return;
     }
-    if (index == 0)
+    if (index == 1)
     {
         deleteFirst();
         return;
     }
     else
     {
-        for (i = 0; i < index - 1; i++)
+        for (i = 0; i < index - 2; i++)
             node = node->next;
 
         t = node->next;
-        t->next = node->next->next;
+        node->next = t->next;
         free(t);
     }
 }
