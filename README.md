@@ -10,8 +10,8 @@
 
 - [Linked List](./01.Data-Structures/01.Linked-List)
   - [Singly Linked List](./01.Data-Structures/01.Linked-List/01.Singly-Linked-List)
-  - [Doubly Linked List](./01.Data-Structures/01.Linked-List/2.%20Doubly-Linked-List)
-  - [Circular Linked List](./01.Data-Structures/01.Linked-List/2.%20Doubly-Linked-List)
+  - [Doubly Linked List](./01.Data-Structures/01.Linked-List/02.Doubly-Linked-List/)
+  - Circular Linked List
 - Queue
 - Stack
 - Hash Table
