@@ -5,51 +5,54 @@
 </div>
 
 ## Contents
+
 #### Data Structures
 
-- Linked List
-    - Singly Linked List
-    - Circular Linked List
-    - Doubly Linked List
+- [Linked List](./01.Data-Structures/01.Linked-List)
+  - [Singly Linked List](./01.Data-Structures/01.Linked-List/01.Singly-Linked-List)
+  - [Doubly Linked List](./01.Data-Structures/01.Linked-List/2.%20Doubly-Linked-List)
+  - [Circular Linked List](./01.Data-Structures/01.Linked-List/2.%20Doubly-Linked-List)
 - Queue
 - Stack
 - Hash Table
 - Heap
 - Tree
-    - Binary Search Tree
-    - AVL Tree
+  - Binary Search Tree
+  - AVL Tree
 - Graph
 
 #### [Algorithms](./02.Algorithms)
+
 - [Arrays](./02.Algorithms/02.Arrays)
-    - [Simple Array Sum](./02.Algorithms/02.Arrays/Simple%20Array%20Sum)
-    - [Reverse an array](./02.Algorithms/02.Arrays/Reverse%20an%20Array)
+  - [Simple Array Sum](./02.Algorithms/02.Arrays/Simple%20Array%20Sum)
+  - [Reverse an array](./02.Algorithms/02.Arrays/Reverse%20an%20Array)
 - **Sorting**
 - [**Searching**](./02.Algorithms/03.Searching)
-    - [Linear Search](./02.Algorithms/03.Searching/01.Linear%20Search)
-    - Binary Search
-    - Jump Search
-    - Interpolation Search
-    - Exponential Search
-    - Ternary Search
+
+  - [Linear Search](./02.Algorithms/03.Searching/01.Linear%20Search)
+  - Binary Search
+  - Jump Search
+  - Interpolation Search
+  - Exponential Search
+  - Ternary Search
 
 - **Dynamic Programming**
-    - Fibonacci Number
-    - Longest Common Subsequence
-    - Longest Common Substring
-    - Longest Increasing Subsequence
-    - Shortest Common Supersequence
-
+  - Fibonacci Number
+  - Longest Common Subsequence
+  - Longest Common Substring
+  - Longest Increasing Subsequence
+  - Shortest Common Supersequence
 
 ## Contributing
+
 We would be happy to receive your proposition of improvement!
 
 Read [Contributing Guide](./CONTRIBUTING.md) for more details.
 
-
 ## License
+
 This project is licensed under the [MIT License.](./LICENSE)
 
-
 ## Authors
+
 - [@Md.GhulamAzadAnsari](https://www.github.com/GhulamAzad)
