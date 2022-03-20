@@ -14,7 +14,7 @@ struct Node
 struct Node *head = NULL, *lastNode = NULL;
 
 // START FUNCTION DECLARATION
-int takeIntInput();
+int takeIntInput(char *);
 void display(struct Node *);
 int count(struct Node *);
 void insertAtBeg(int data);
